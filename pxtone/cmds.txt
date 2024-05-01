@@ -1,0 +1,8 @@
+
+ffmpeg -i wii.webm -vf palettegen=stats_mode=single palette_%03d.png
+
+
+
+
+
+convert -delay 20 -loop 0 out/*.png myimage.gif
