@@ -1,10 +1,8 @@
-
-
-
-
-
-
+1.
 convert -background none logo.svg logo.PNG
 
+2.
+python logoanim.py
 
+3.
 convert -delay 3 -loop 0 out/*.png cafelogo_animated.gif
